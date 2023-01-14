@@ -1,5 +1,5 @@
 // css
-import "../css/App.css";
+import "./qrGeneratorStyle.scss"
 
 // modules
 import QRCode from "react-qr-code";
@@ -17,6 +17,8 @@ function App() {
         <QRCode value={currentDate} />
         <p>{currentDate}</p>
       </div>
+
+
     </div>
   );
 }

@@ -5,12 +5,14 @@ import ReactDOM from 'react-dom/client';
 import './css/index.css';
 
 //components
-import App from './JS/App';
+import QrGenerator from './Components/QrGenerator';
+import Footer from './Components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <QrGenerator />
+    <Footer></Footer>
   </React.StrictMode>
 );
 
